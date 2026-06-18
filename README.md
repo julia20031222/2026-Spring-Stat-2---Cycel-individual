@@ -1,7 +1,7 @@
 # project-individual: Computer Use Time and Sleep Hours ANOVA
 
 ## Members
-**111370210 Li Caixuan**
+**111370210 李采軒**
 
 ---
 
