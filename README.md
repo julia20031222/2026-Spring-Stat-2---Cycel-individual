@@ -74,23 +74,6 @@ PROJECT-INDIVIDUAL/
 
 兩端是開放區間：「4 小時以下」與「10 小時以上」。本教學為方便 ANOVA，分別近似為 4 與 10 小時。
 
-## 報告中可使用的假設
-
-- H0：不同電腦使用時間組別的平均睡眠時數相同。
-- H1：至少一個電腦使用時間組別的平均睡眠時數不同。
-
-## 結論
-
-本研究使用單因子 ANOVA 分析不同電腦使用時間組別與睡眠時數之間的差異。
-
-結果顯示：
-
-不同電腦使用時間組別之間的平均睡眠時數存在統計上顯著差異（p < .05）
-整體趨勢顯示：電腦使用時間較長的組別，其平均睡眠時數較低
-然而效果量（η²）較小，表示實際影響程度有限
-
-因此，電腦使用時間與睡眠時數之間呈現「弱但顯著」的關聯。
-
 ## 解讀注意事項
 
 1. ANOVA 只能顯示組別平均數是否有差異。
@@ -98,3 +81,27 @@ PROJECT-INDIVIDUAL/
 3. 樣本數很大時，小差異也可能達到統計顯著。
 4. 應同時報告平均數、95% 信賴區間與效果量。
 5. YRBS 是複雜抽樣資料；本專案採一般未加權 ANOVA，適合作為課堂教學版本。
+
+## Report Hypotheses
+
+- H0: The mean sleep hours are the same across different computer use time groups.
+- H1: At least one computer use time group has a different mean sleep duration.
+  
+## Conclusion
+
+This study used one-way ANOVA to analyze differences between computer use time groups and sleep duration.
+
+The results show:
+
+There is a statistically significant difference in mean sleep hours across computer use time groups (p < .05).
+The overall trend shows that groups with higher computer use time tend to have lower average sleep hours.
+However, the effect size (η²) is small, indicating that the practical impact is limited.
+
+Therefore, the relationship between computer use time and sleep hours is weak but statistically significant.
+
+## Interpretation Notes
+1. ANOVA only indicates whether group means differ.
+2. It does not imply that computer use causes changes in sleep duration.
+3. With large sample sizes, small differences may still be statistically significant.
+4. Mean values, 95% confidence intervals, and effect sizes should be reported together.
+5. YRBS is a complex survey dataset; this project uses an unweighted ANOVA as a classroom-level analysis.
