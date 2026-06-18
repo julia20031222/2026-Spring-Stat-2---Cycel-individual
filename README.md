@@ -91,6 +91,12 @@ However, the effect size (η²) is small, indicating that the practical impact i
 
 Therefore, the relationship between computer use time and sleep hours is weak but statistically significant.
 
+## Github
+https://github.com/julia20031222/2026-Spring-Stat-2---Cycel-individual
+
+## YT
+https://youtu.be/ZlPWLnBcyHo
+
 ## Interpretation Notes
 1. ANOVA only indicates whether group means differ.
 2. It does not imply that computer use causes changes in sleep duration.
