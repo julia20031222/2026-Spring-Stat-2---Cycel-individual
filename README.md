@@ -44,6 +44,7 @@ PROJECT-INDIVIDUAL/
     ├── .gitignore
     ├── README.md
     └── requirements.txt
+```
 
 ## 編碼說明
 
