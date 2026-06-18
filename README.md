@@ -1,39 +1,49 @@
-# project-individual：電腦使用時間與睡眠時數 ANOVA
+# project-individual: Computer Use Time and Sleep Hours ANOVA
 
 ## Members
-**111370210 李采軒**
+**111370210 Li Caixuan**
 
-## 研究問題
+---
 
-不同「電腦使用時間」的高中生，其平均睡眠時數是否存在差異？
+## Research Question
 
-- 分組變數：`ComputerUse`
-- 結果變數：`Sleep`
-- 方法：單因子 ANOVA
-- 事後比較：Tukey HSD
+Do high school students with different levels of computer use time have different average sleep hours?
 
-## 專案結構
+- **Grouping variable:** `ComputerUse`  
+- **Response variable:** `Sleep`  
+- **Method:** One-way ANOVA  
+- **Post-hoc test:** Tukey HSD  
+
+---
+
+## Project Structure
 
 ```text
-project-individual/
-├── README.md
-├── requirements.txt
-├── data/
-│   ├── raw/
-│   │   └── YRBS_2007.csv
-│   └── processed/
-├── notebooks/
-├── outputs/
-│   ├── figures/
-│   ├── tables/
-│   └── summary/
-├── report/
-├── references/
-└── src/
-    ├── 01_data_processing.py
-    ├── 02_anova_analysis.py
-    └── run_all.py
-```
+PROJECT-INDIVIDUAL/
+└── project-individual/
+    ├── data/
+    │   ├── raw/
+    │   │   └── YRBS_2007.csv
+    │   └── processed/
+    │
+    ├── notebooks/
+    │   ├── 01_data_processing.py
+    │   └── 02_anova_analysis.py
+    │
+    ├── outputs/
+    │   ├── figures/
+    │   ├── tables/
+    │   └── summary/
+    │
+    ├── references/
+    │   └── source_note.txt
+    │
+    ├── report/
+    │   └── cycle individual anova summary.png
+    │
+    ├── .gitignore
+    ├── README.md
+    └── requirements.txt
 
 ## 編碼說明
 
