@@ -74,14 +74,6 @@ PROJECT-INDIVIDUAL/
 
 兩端是開放區間：「4 小時以下」與「10 小時以上」。本教學為方便 ANOVA，分別近似為 4 與 10 小時。
 
-## 解讀注意事項
-
-1. ANOVA 只能顯示組別平均數是否有差異。
-2. 不能直接說電腦使用「造成」睡眠變少。
-3. 樣本數很大時，小差異也可能達到統計顯著。
-4. 應同時報告平均數、95% 信賴區間與效果量。
-5. YRBS 是複雜抽樣資料；本專案採一般未加權 ANOVA，適合作為課堂教學版本。
-
 ## Report Hypotheses
 
 - H0: The mean sleep hours are the same across different computer use time groups.
